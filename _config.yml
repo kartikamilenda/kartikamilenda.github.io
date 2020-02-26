@@ -112,7 +112,7 @@ author:
   location         : "Sendai, **Jepang** "
   email            :
   links:
-    # - label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url:  "https://mail.google.com/"
     - label: "Website"
@@ -151,7 +151,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/"
 
 
 # Reading Files
