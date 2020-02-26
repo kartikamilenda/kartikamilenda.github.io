@@ -24,7 +24,7 @@ url                      : "https://kartikamilenda.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : kartikamilenda/kartikamilenda.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/148784.jpg"
+logo                     : #"/148784.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -43,14 +43,14 @@ comments:
     theme                :  minimal-mistakes-jekyll
     issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          :  ['name', 'email', 'url', 'message']
+  branch                 :  "master"
+  commitMessage          :  "New comment by {fields.name}"
+  filename               : comment-{@timestamp}
+  format                 :  "yml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}" (default)
+  requiredFields         :  ['name', 'email', 'message']
   transforms:
     email                : # "md5"
   generatedFields:
@@ -63,18 +63,18 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  path                   : feed.xml
+search                   : true
+search_full_content      : true
+search_provider          : google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id       : 013067721830301571654:nzgz5gssict
+  instant_search         :  true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
