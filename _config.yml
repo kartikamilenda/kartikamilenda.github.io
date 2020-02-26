@@ -107,9 +107,9 @@ analytics:
 # Site Author
 author:
   name             : "Kartika Milenda"
-  avatar           : # "/148784.jpg"
+  avatar           :  "/148784.jpg"
   bio              : " **Pooh san** _is the best_."
-  location         : "Sendai, __Jepang__ "
+  location         : "Sendai, Jepang "
   email            :
   links:
     - label: "Email"
