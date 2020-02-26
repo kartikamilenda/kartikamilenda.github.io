@@ -23,10 +23,10 @@ description              : "Pooh San is the best."
 url                      : "https://kartikamilenda.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : kartikamilenda/kartikamilenda.github.io
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/1582720695353.jpg"
 logo                     : #"/148784.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
- #breadcrumbs            :  true
+ breadcrumbs            :  true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"

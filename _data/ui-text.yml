@@ -1566,7 +1566,7 @@ ca: &DEFAULT_CA
   page                       : "Pàgina"
   pagination_previous        : "Anterior"
   pagination_next            : "Següent"
-  breadcrumb_home_label      : "Inici"
+  breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "Mostra/amaga el menú"
   search_label               : "Mostra/amaga la cerca"
